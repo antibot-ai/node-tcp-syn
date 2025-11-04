@@ -1,0 +1,13 @@
+{
+  "name": "node-tcp-syn",
+  "version": "0.1.0",
+  "description": "TCP SYN packet collector for Node.js",
+  "author": "raidendev@gmail.com",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "build": "node-gyp rebuild"
+  }
+}

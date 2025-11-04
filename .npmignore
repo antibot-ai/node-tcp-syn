@@ -1,0 +1,7 @@
+*
+*/
+!src/
+!LICENSE
+!README.md
+!binding.gyp
+!package.json
