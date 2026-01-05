@@ -1,6 +1,5 @@
 *
-*/
-!src/
+!src/**
 !LICENSE
 !README.md
 !binding.gyp
