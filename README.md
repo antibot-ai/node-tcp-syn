@@ -8,6 +8,14 @@ The module's primary purpose is to provide a foundation for in-band passive conn
 
 The distributed npm package contains native code that works only on Linux systems with Kernel [4.2+](https://lwn.net/Articles/644906/) and requires installed compiler toolchain to build. Other OSes and kernels are not supported nor planned.
 
+## Installation
+
+This package is available for installation from the npm registry:
+
+```
+$ npm install node-tcp-syn
+```
+
 ## Usage
 
 To collect SYN packets, you must first enable the feature on a `net.Server` instance using the `enable()` function. Once enabled, you can retrieve the collected SYN packets by calling the `retrieve()` function on a client `net.Socket` instance.
@@ -16,7 +24,7 @@ Follow the next example, also available to run as [examples/server.js](examples/
 
 ```js
 import { createServer } from 'node:net';
-import { enable, retrieve } from '@antibot-ai/node-tcp-syn';
+import { enable, retrieve } from 'node-tcp-syn';
 
 const server = createServer((socket) => {
   console.log('New client is connecting');
