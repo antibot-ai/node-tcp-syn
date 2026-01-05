@@ -1,6 +1,6 @@
 {
   "name": "node-tcp-syn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TCP SYN packet collector for Node.js",
   "author": "raidendev@gmail.com",
   "license": "MIT",
